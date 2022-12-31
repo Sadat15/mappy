@@ -49,12 +49,6 @@ a:visited {
   flex-direction: column;
 }
 
-.logo {
-  height: 5.2rem;
-  align-self: center;
-  margin-bottom: 4rem;
-}
-
 .workouts {
   list-style: none;
   height: 77vh;
@@ -169,24 +163,6 @@ a:visited {
 
 .form__btn {
   display: none;
-}
-
-.copyright {
-  margin-top: auto;
-  font-size: 1.3rem;
-  text-align: center;
-  color: var(--color-light--1);
-}
-
-.twitter-link:link,
-.twitter-link:visited {
-  color: var(--color-light--1);
-  transition: all 0.2s;
-}
-
-.twitter-link:hover,
-.twitter-link:active {
-  color: var(--color-light--2);
 }
 
 /* MAP */
