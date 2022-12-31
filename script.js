@@ -255,11 +255,11 @@ class App {
   }
 
   _setLocalStorage() {
-    localStorage.setItem("workout", JSON.stringify(this.#workouts));
+    localStorage.setItem("workouts", JSON.stringify(this.#workouts));
   }
 
   _getLocalStorage() {
-    const data = localStorage.getItem("workouts");
+    const data = JSON.parse(localStorage.getItem("workouts"));
     if (!data) return;
 
     this.#workouts = data;
